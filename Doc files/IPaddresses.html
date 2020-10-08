@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>IP addresses, Packets and Routing</title>
+</head>
+<!-- Nav Bar -->
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Internet</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="team.html">Team</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    How Internet works
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item active" href="ipaddresses.html">IP Addressess</a>
+                    <a class="dropdown-item" href="dns.html">DNS</a>
+                    <a class="dropdown-item" href="http.html">HTTP & HTTPS</a>
+                    <a class="dropdown-item" href="domain.html">Domain</a>
+                    <a class="dropdown-item" href="w3c.html">W3C</a>
+                    <a class="dropdown-item" href="invention.html">Invention</a>
+                    <a class="dropdown-item" href="browser.html">Browser Wars</a>
+                    <a class="dropdown-item" href="internet.html">Internet Search</a>
+                    <a class="dropdown-item" href="dot.html">Dot Com</a>
+                    <a class="dropdown-item" href="people.html">People</a>
+
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<main class="container">
+    <h2>IP addresses, Packets and Routing- What is the Internet</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10">
+                <img src="images/ipaddresses.jpg" class="img-fluid" alt="Browser wars">
+
+                <p>IP address is like a mailing address but for your devices. Current IP address are called IP4 and 32
+                    bit hierarchy based address that were designed in 1973. IP addresses are country/region specific,
+                    then sub-network and the device address. As they are 32 bits, so current IP4 address can be assigned
+                    to 4 Billion unique devices, but as the number of devices on the internet are growing therefore we
+                    are transitioning to IP6 which uses 128 bits and can have unto 340 Undecillion unique addresses.</p>
+
+                <h3>Packets</h3>
+                <p> Data Is share over the internet in units or packets, each packet has binary sequences up to 64K in
+                    size. Just like physical mailing envelopes, it has the sender and receiver’s information. These
+                    packets travel through the electric wires, fiber optic cables and wireless networks.</p>
+
+                <p>These packets travel via the distributed network/Internet and can take one of many routes which are
+                    build for fault tolerance.These routes are directed by the Routers, which can be direct and
+                    indirect. They are like traffic police and can reroute the traffic/packets if there is congestion or
+                    the route is broken. More routers increases fault tolerance and increase reliability.</p>
+
+                <p>TCP is like an inventory manager which upon the arrival makes sure that all the packets are received
+                    and sends the confirmation back to the server, if some packets were loss during transit, it will
+                    notify the server and will send the confirmation once received.</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
