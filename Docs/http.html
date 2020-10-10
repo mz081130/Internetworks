@@ -44,44 +44,51 @@
         </ul>
     </div>
 </nav>
-<main class="container">
-
-    <div class="container">
-        <h2>HTTP & HTTPS- What is the Internet</h2>
-        <div class="row">
-            <div class="col-lg-10">
-                <img src="Images/https.jpg" class="img-fluid" alt="http & https">
-
+<div class="container d-flex h-100">
+    <div class="row justify-content-center align-self-center">
+        <div class="col-7 mx-auto" style="font-family: Helvetica">
+            <h2>HTTP & HTTPS- What is the Internet</h2>
+            <img class="card-img-top img-fluid" src="Images/https.jpg" class="img-fluid" alt="http & https">
+            <div class="card-body">
                 <h3>HTTP</h3>
                 <p> Hyper Text Transfer Protocol</p>
-                <p>It’s a protocol to transfer resources to and from the server, such as HTML document. When we open a
-                    webpage bunch of “get” requests are send by the web browser to the server via the internet. A single
-                    web page have multiple get requests, for example on how the web page looks, get request for images
+                <p>It’s a protocol to transfer resources to and from the server, such as HTML document. When we open
+                    a
+                    webpage bunch of “get” requests are send by the web browser to the server via the internet. A
+                    single
+                    web page have multiple get requests, for example on how the web page looks, get request for
+                    images
                     and videos. A client can also send data to the server, for example data generated when a user
                     sign-up for an account, these request are called post request.</p>
                 <p>HTTP uses TCP (Transmission Control Protocol), generally over port 80, to send and receive data
                     packets over the web. To put it simply it is a protocol that's used by a client and server which
-                    allows you to communicate with other websites. The client sends a request message to an HTTP server
-                    (after the TCP handshake) which hosts a website, the server then replies with the response message.
+                    allows you to communicate with other websites. The client sends a request message to an HTTP
+                    server
+                    (after the TCP handshake) which hosts a website, the server then replies with the response
+                    message.
                     The response message contains completion status information, such as HTTP/1.1 200 OK</p>
 
                 <h3> HTTPS</h3>
                 <p>Hyper Text Transfer Protocol Secure</p>
-                <p>It’s a secure way of HTTP communication between a client and a server. In HTTP, communication can be
-                    compromised, therefore an additional layer is added via SSL (Secure Socket layer) or TLS (Transport
+                <p>It’s a secure way of HTTP communication between a client and a server. In HTTP, communication can
+                    be
+                    compromised, therefore an additional layer is added via SSL (Secure Socket layer) or TLS
+                    (Transport
                     layer security).</p>
-                <p>Generally sites running over HTTPS will have a redirect in place so even if you type in http:// it
+                <p>Generally sites running over HTTPS will have a redirect in place so even if you type in http://
+                    it
                     will redirect to deliver over a secured connection. HTTPS also uses TCP (Transmission Control
                     Protocol) to send and receive data packets, but it does so over port 443, within a connection
                     encrypted by Transport Layer Security (TLS)</p>
-                <p>HTTPS digital certificates are issued by entrusted entities that verify the identity of website and
+                <p>HTTPS digital certificates are issued by entrusted entities that verify the identity of website
+                    and
                     are presented to the user in the form of a lock next to the HTTPS://.
                 </p>
                 <p>Source: <a href="https://www.keycdn.com/blog/difference-between-http-and-https">KeyCDN</a></p>
             </div>
         </div>
     </div>
-</main>
+</div>
 
 
 <!-- Optional JavaScript -->
